@@ -716,8 +716,8 @@ body{
     .header-text .landing-page{
         margin:0 ;
         margin-left: 1rem;
-        padding-top: 13.5rem;
-        font-size: 1rem;
+        padding-top: 20rem;
+        font-size: 2rem; /*2rem*/
         text-align;
     }
 
