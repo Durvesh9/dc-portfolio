@@ -643,13 +643,13 @@ body{
 
 
 /* mobile media queries */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+@media only screen and (min-device-width: 300px) and (max-device-width: 480px){
     
     #header{
         width: 100%;
         height: 100vh;
         background-position: center;
-        background-size: cover;
+        background-size:cover;
         background-image: url("laptop\ 900px.png");
     }
 
@@ -716,9 +716,9 @@ body{
     .header-text .landing-page{
         margin:0 ;
         margin-left: 1rem;
-        padding-top: 13.5rem;
-        font-size: 24.5px;
-        text-align;
+        padding-top: 15.5rem;
+        font-size: 2rem;
+        text-align: ;
     }
 
     .header-text .landing-page .surname{
