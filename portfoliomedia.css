@@ -804,7 +804,7 @@ body{
     
     #skills-section{
         width: 100%;
-        height: 100vh;
+        height:fit-content;
         padding: 0px;
         background-size: cover;
         
@@ -823,7 +823,7 @@ body{
         align-items: center;
         align-content: space-between;
         margin-bottom: 5rem;
-        height: fit-content;
+        
 }
 
     .skills-section h1{
@@ -885,12 +885,12 @@ body{
         flex-basis: 100%;
         margin: 4rem 0 0 0;
         width: 90%;
-        zoom: 100%;
+        
         
     }
     .skill-right .skills{
         margin-top: 1rem;
-        height: fit-content;
+        height: 60vh;
     }
 
 
@@ -900,7 +900,7 @@ body{
 
     #contactdetails{
         width: 100%;
-        height: 150vh;
+        height: fit-content;
         padding: 0;
         justify-content: initial;
         align-items: initial;
@@ -994,19 +994,19 @@ body{
     } 
     .contact-row .contact-right h2{
         text-align: center;
-        font-size: 18px;
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }
     .contact-right form input{
         width: 100%;
-        font-size: 12px;
-        height: 2.5rem;
+        font-size: 1rem;
+        height: 4rem;
         margin: 10px 0 ;
     }
     .contact-right form textarea{
         width: 100%;
-        font-size: 12px;
-        height: 8rem;
+        font-size: 1rem;
+        height: 12rem;
         margin: 10px 0;
     }
     .contact-right .contact-btn{
@@ -1017,8 +1017,8 @@ body{
     }
     
     .contact-right .contact-btn button{
-        font-size: 12px;
-        height: 2.5rem;
+        font-size: 1rem;
+        height: 3rem;
         align-items: center;
     }
     
@@ -1026,7 +1026,6 @@ body{
         height: 12rem;
         width: 15rem;
         zoom: 100%;
-        
         padding: 0;
     }
     .popup .content h2{
@@ -1050,7 +1049,7 @@ body{
 
 
 footer{
-    zoom: 80%;
+    zoom: 78%;
 }
 }
 
