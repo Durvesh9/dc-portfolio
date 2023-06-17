@@ -735,6 +735,11 @@ body{
     
 
 
+
+    /* about section */
+
+
+
     #about{
         width: 100%;
         height: fit-content;
@@ -818,19 +823,20 @@ body{
         align-items: center;
         align-content: space-between;
         margin-bottom: 5rem;
-        
+        height: fit-content;
 }
 
     .skills-section h1{
         padding-top: 10px;
         font-size: 2rem;
+        margin-top: 2rem;
         
     }
     .skill-row .skill-left h2{
         font-size: 1.5rem;
         text-align: center;
         margin: 0;
-        padding: 2rem 0 1.5rem;
+        padding: 2rem 0 2rem 0;
         width: 100%;
 
     }
@@ -846,6 +852,7 @@ body{
         width: 100%;
         text-align: justify;
         align-items: center;
+        
         
     }
     .skill-row .skill-left .left-content{
@@ -878,11 +885,12 @@ body{
         flex-basis: 100%;
         margin: 4rem 0 0 0;
         width: 90%;
-        zoom: 85%;
+        zoom: 100%;
+        
     }
     .skill-right .skills{
         margin-top: 1rem;
-        height: 75vh;
+        height: fit-content;
     }
 
 
@@ -903,13 +911,15 @@ body{
     }
     .contactdetails h1{
         font-size: 2rem;
-        padding: 10px 0 10px 0;
+        
+        margin-top: 2rem;
 
     }
     .contactdetails h2{
         font-size: 1.5rem;
-        padding: 38px 0 10px 0;
+        padding: 2rem 0 2rem 0;
         text-align: center;
+        width: 100%;
     }
 
     #contactdetails .contact-row{
@@ -923,6 +933,7 @@ body{
         flex-direction: column;
         align-items: center;
         align-content: space-between;
+        height: fit-content;
     }
     .contact-left{
         flex-basis: 100%;
@@ -932,28 +943,28 @@ body{
         align-items: center;
         width: 100%;
         font-size: 1rem;
-        height: 100vh;
+        height: auto;
     }
 
     .contact-left p{
         margin: 0;
-        padding: 10px 0 10px 0;
-        font-size: 12px;
+        padding: 0px 0 10px 0;
+        font-size: 1rem;
     }
     .contact-left .icons{
-        margin: 0rem 0rem 0 0rem;
+        margin: 2rem 0rem 0 0rem;
         font-size: 12px;
         align-items: center;
     }
     .contact-left p i{
-        font-size: 15px
+        font-size: 1.2rem;
     }
     
     .contact-left .info{
         padding: 0;
     }
     .contact-left .social-icons{
-        margin-top: 25px;
+        margin-top: 1.5rem;
         display: flex;
         justify-content:center;
     }
@@ -963,10 +974,10 @@ body{
     }
     .fa-brands{
         font-weight: 400;
-        font-size: 25px;
+        font-size: 2rem;
         margin: 0;
         padding: 0;
-        margin: 0 1rem;
+        margin: 3rem 1rem;
     }
 
 
@@ -977,8 +988,9 @@ body{
         flex-direction: column;
         padding: 0;
         margin: 0;
-        margin: 1rem;
+        margin: 5rem 1rem;
         align-content: center;
+        
     } 
     .contact-row .contact-right h2{
         text-align: center;
