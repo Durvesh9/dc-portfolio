@@ -746,6 +746,7 @@ body{
 
     #about h1{
         font-size: 2rem;
+        margin-top: 2rem;
         padding: 0;
     }
     .about-row{
@@ -755,7 +756,7 @@ body{
         margin: 0;
         padding: 0.6rem;
         margin-left: 0rem;
-
+        margin-bottom: 2rem;
     }
 
     .about-row .column-left{
@@ -768,15 +769,17 @@ body{
         padding: 0;
         width: 100%;
         margin-left: 1rem;
+        margin-top:1rem ;
         
         
     }
     .about-row .column-right h2{
         font-size: 1.5rem;
-        padding: 2rem 0 1.5rem;
+        padding: 2rem 0 2rem;
     }
     .about-row .column-right .para{
         font-size: 1rem;
+        padding-bottom: 1.5rem;
 
     }
     .tab-links{
