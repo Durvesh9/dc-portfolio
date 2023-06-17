@@ -900,14 +900,14 @@ body{
 
     #contactdetails{
         width: 100%;
+        height: fit-content;
         padding: 0;
-        justify-content: initial;
-        align-items: initial;
         margin-top:0;
+        background-size: cover;
     }
     .contactdetails{
         width: 100%;
-        height:fit-content;
+        
     }
     .contactdetails h1{
         font-size: 2.5rem;
@@ -928,12 +928,12 @@ body{
         flex-wrap: wrap;
         margin: 0;
         padding: 0;
-        position: absolute;
+        position: relative;
         width: 100%;
         flex-direction: column;
         align-items: center;
         align-content: space-between;
-        height: auto;
+
     }
     .contact-left{
         flex-basis: 100%;
@@ -943,7 +943,6 @@ body{
         align-items: center;
         width: 100%;
         font-size: 1rem;
-        height: auto;
     }
 
     .contact-left p{
@@ -990,7 +989,7 @@ body{
         margin: 0;
         margin: 5rem 1rem;
         align-content: center;
-        height: auto;
+        
         
     } 
     .contact-row .contact-right h2{
@@ -1051,7 +1050,6 @@ body{
 
 footer{
     zoom: 78%;
-    margin-top:;
 }
 }
 
