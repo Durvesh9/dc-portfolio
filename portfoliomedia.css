@@ -900,7 +900,7 @@ body{
 
     #contactdetails{
         width: 100%;
-        height: 100vh;
+        height: fit-content;
         padding: 0;
         justify-content: initial;
         align-items: initial;
@@ -1051,7 +1051,7 @@ body{
 
 footer{
     zoom: 78%;
-    margin-top: 100vh;
+    margin-top:;
 }
 }
 
