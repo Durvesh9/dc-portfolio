@@ -900,7 +900,6 @@ body{
 
     #contactdetails{
         width: 100%;
-        height: fit-content;
         padding: 0;
         justify-content: initial;
         align-items: initial;
@@ -908,6 +907,7 @@ body{
     }
     .contactdetails{
         width: 100%;
+        height:fit-content;
     }
     .contactdetails h1{
         font-size: 2.5rem;
