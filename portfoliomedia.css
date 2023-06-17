@@ -756,7 +756,7 @@ body{
         margin: 0;
         padding: 0.6rem;
         margin-left: 0rem;
-        margin-bottom: 2rem;
+        margin-bottom: 8rem;
     }
 
     .about-row .column-left{
@@ -817,16 +817,17 @@ body{
         flex-direction: column;
         align-items: center;
         align-content: space-between;
+        margin-bottom: 5rem;
         
 }
 
     .skills-section h1{
         padding-top: 10px;
-        font-size: 28px;
+        font-size: 2rem;
         
     }
     .skill-row .skill-left h2{
-        font-size: 18px;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0;
         padding: 2rem 0 1.5rem;
@@ -854,7 +855,7 @@ body{
         
     }
     .skill-row .skill-left .left-content p{
-        font-size: 12px;
+        font-size: 1rem;
 
     }
     .skill-row .buttons{
@@ -867,7 +868,7 @@ body{
         padding: 0;
         font-size: 10px;
         margin-top: 0;
-        
+        zoom: 120%;
 
     }
 
@@ -877,7 +878,7 @@ body{
         flex-basis: 100%;
         margin: 4rem 0 0 0;
         width: 90%;
-        zoom: 75%;
+        zoom: 85%;
     }
     .skill-right .skills{
         margin-top: 1rem;
@@ -886,24 +887,27 @@ body{
 
 
 
+    /* contact section */
+
+
     #contactdetails{
         width: 100%;
-        height: 145vh;
+        height: 150vh;
         padding: 0;
-        zoom: 100%;
         justify-content: initial;
         align-items: initial;
+        margin-top: 16rem;
     }
     .contactdetails{
         width: 100%;
     }
     .contactdetails h1{
-        font-size: 28px;
+        font-size: 2rem;
         padding: 10px 0 10px 0;
 
     }
     .contactdetails h2{
-        font-size: 18px;
+        font-size: 1.5rem;
         padding: 38px 0 10px 0;
         text-align: center;
     }
@@ -927,7 +931,7 @@ body{
         margin-left: 0rem;
         align-items: center;
         width: 100%;
-        font-size: 12px;
+        font-size: 1rem;
         height: 100vh;
     }
 
