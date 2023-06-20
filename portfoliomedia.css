@@ -715,6 +715,8 @@ body{
     
     #header .header-text{
         margin: 0px;
+        display: flex;
+        align-items: center;
     }
 
     
