@@ -62,7 +62,7 @@ const Homepage = () => {
                     <span className="tagline" style={{ margin: '1rem 0' }}>And I am a Passionate</span><br />
                     <span id="element" style={{ margin: '1rem 0', color: '#ff004b' }}></span><br />
                     <div className="buttons">
-                        <a href="https://drive.google.com/file/d/1BzHR5_eik_9Wc_QiM4J7Tixpu88Lzdc9/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1vk02v1xRu11JuuXnYokY7ptjmfNlwlAB/view?usp=sharing">
                             <button className="cv-button">Download Resume</button>
                         </a>
                     </div>
