@@ -44,6 +44,11 @@ const About = () => {
                         <div className={`tab-contents ${activeTab === 'experience' ? 'active-tab' : ''}`} id="experience">
                             <ul>
                                 <li>
+                                    <span>Web Content Developer Intern at Udyog Suvidha Kendra, Palghar</span>
+                                    <br />
+                                    <span>(December 2024 - Present)</span>
+                                </li>
+                                <li>
                                     <span>Secretary at Association of Students for Computing Artificial Intelligence (ASCAI)</span>
                                     <br />
                                     <span>(August 2024 - Present)</span>

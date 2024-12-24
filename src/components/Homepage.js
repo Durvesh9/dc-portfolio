@@ -15,7 +15,7 @@ const Homepage = () => {
     useEffect(() => {
         // Initialize Typed.js when the component mounts
         var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Graphic Designer', 'Video Editor', 'Programmer'],
+            strings: ['Web Content Developer', 'Product Manager', 'Graphic Designer', 'Business Analyst'],
             typeSpeed: 100,
             loop: true,
         });
