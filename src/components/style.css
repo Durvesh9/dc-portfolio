@@ -234,7 +234,7 @@ nav ul li a:hover::after {
 #about {
     width: 100%;
     height: fit-content;
-    padding: 50px 0;
+    padding: 50px 0 75px 0;
     background-color: #111;
     color: #ababab;
     background-size: cover;
@@ -327,6 +327,23 @@ nav ul li a:hover::after {
 .tab-contents.active-tab {
     display: block;
 }
+
+
+/* readmore button for content management */
+.toggle-btn {
+    color: #ff004b;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.toggle-btn:hover {
+    color: #ff004b;
+}
+
 
 
 
